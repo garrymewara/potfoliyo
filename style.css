@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&display=swap');
+*{
+    font-family: 'Poppins' ;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-image: url("BG1.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+.hero {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    margin-top: 10em;
+    text-align: center;
+
+}
+
+.hero span {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero hr {
+    width: 30em;
+}
+
+.hero .icon {
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.hero h3{
+    margin-block-start: 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-block-end: 0;
+}
+.ABOUT{
+    padding-top: 3em;
+    display: flex;
+    justify-content:center;
+    gap: 2em;
+    background-color: black;
+    color: whitesmoke;
+
+}
+.ABOUT .side-about{
+    width: 50%;
+    text-transform: capitalize;
+}
+.ABOUT .image img{
+    margin-top: 15px;
+    height: 45vh;
+    width: 200px;
+}
+.ABOUT h3, .ABOUT p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.ABOUT p{
+    font-size: 18px ;
+    color: #494949;
+  padding-top: 2px;
+}
+.details { 
+    padding-top: 12px;
+}
+.EDUCATION {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.education-details{
+    width: 55%;
+}
+.edu {
+margin-top: 40px;
+}
+.p1{
+    font-size: 12px;
+    color: #494949;
+    font-style: italic;
+    margin-block-start: 0;
+}
+.eh1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.ep1{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #494949;
+    text-transform: capitalize;
+}
+.edu hr{
+    width: 69px;
+    height: 2px;
+    background: #52FF00;
+    border: none;
+} 
+.edu p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.hp1 {
+    margin-block-start: 0;
+    font-size: 12px;
+    color: #494949;
+    font-style: italic;
+}
+.eh2{
+    margin-block-end: 0;
+}
+.ep2{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #494949;
+    text-transform: capitalize;
+}
+.hp2 {
+    margin-block-start: 0;
+    font-size: 12px;
+    color: #494949;
+    font-style: italic;
+}
+.eh3{
+    margin-block-end: 0;
+}
+.ep3{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #494949;
+    text-transform: capitalize;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    gap: 6em;
+}
+.skills ul li{
+    list-style: none;
+}
+#file{
+    width: 20em;
+    height: 1.5em;
+}
+.hr{
+    width: 50%;
+    background-color: black;
+    /* border: none; */
+}
+.skills div hr{
+    margin-block-start: 4px;
+    margin-block-end: 0;
+    width: 45px;
+    height: 2px;
+    background: #52FF00;
+    border: none;
+}
+.skills div p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.skills .skd1{
+    margin-top:25px ;
+}
+.skills .skd2{
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+}
+.contact{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.contact_details{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 4em;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.contact_details input{
+    width: 50%;
+    height: 5vh;
+}
+.contact_details div{
+    display: flex;
+    justify-content: space-between;
+}
